@@ -34,7 +34,15 @@ install.packages(c("shiny", "tidyverse", "leaflet", "leaflet.extras", "shinyWidg
 ## Installation
 
 1. [Clonez ce dépôt](https://github.com/benguir/Dashboard-RShinny-CrimesLA.git) sur votre machine locale.
+    
+2. Allez dans le répertoire où vous avez téléchargé les fichiers, créez un nouveau dossier appelé "DATA" et installez les données [Télécharger](https://data.lacity.org/Public-Safety/Crime-Data-from-2020-to-Present/2nrs-mtv8) . Placez ces données dans le dossier nouvellement créé, "DATA".
 
-2. Ouvrir app.R avec R Studio puis Run App
+3. Ensuite, ouvrez le dossier téléchargé et ouvrez le fichier nommé "app.R". Une fois dans R, dirigez-vous vers la partie inférieure droite de la fenêtre, dans l'onglet "files". Remplacez le répertoire de travail de R par le dossier "Dashboard-RShinny-CrimesLA".
+
+4. Ouvrez le fichier "global.R" et modifiez le chemin d'accès aux données sur la première ligne en le remplaçant par le vôtre. 
+
+5. Ouvrez le fichier "packages.R". Si les bibliothèques utilisées n'ont pas encore été téléchargées, installez-les et enregistrez le fichier.
+
+6. Enfin, dans le fichier "app.R", cliquez sur "Run App" pour lancer l'application.
 
 
