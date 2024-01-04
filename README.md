@@ -26,6 +26,7 @@ R Version 3.6.0 ou supérieur ou [Download R 4.3.2](https://cran.r-project.org/b
 
 [Donwload R Studio](https://posit.co/download/rstudio-desktop/)
 
+Sur la console R Studio executez le code
 ```R
 install.packages(c("shiny", "tidyverse", "leaflet", "leaflet.extras", "shinyWidgets", "plotly", "shinythemes", "shinydashboard", "ggplot2", "DT"))
 ```
@@ -34,6 +35,6 @@ install.packages(c("shiny", "tidyverse", "leaflet", "leaflet.extras", "shinyWidg
 
 1. [Clonez ce dépôt](https://github.com/benguir/dashboardProjectR.git) sur votre machine locale.
 
-2. [app.R](https://github.com/benguir/dashboardProjectR/blob/main/app.R) -> Run App
+2. Ouvrir app.R avec R Studio puis Run App
 
 
