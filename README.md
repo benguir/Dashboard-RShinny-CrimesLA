@@ -15,28 +15,30 @@ L'objectif à été de révéler des tendances, des motifs et fournir des aperç
 
 ## Aperçu
 
-[Insérez une description brève et pertinente de votre dashboard. Ajoutez des captures d'écran ou des liens vers des démos en ligne si disponibles.]
+Le tableau de bord offre une visualisation interactive des données criminelles de Los Angeles, facilitant la compréhension des tendances et des statistiques clés. Les utilisateurs peuvent explorer et filtrer les données en fonction de différents critères, permettant une analyse approfondie.
+
+
 
 ## Fonctionnalités
 
-- [Listez les principales fonctionnalités de votre dashboard.]
+- Sélection interactive des districts et des catégories de crimes.
+- Affichage des nombres de crimes, des ratios et des totaux.
+- Carte interactive avec localisation des incidents criminels.
+- Graphique de ratio de crimes par district.
+- Filtres par sexe, âge et plage de dates.
 
 ## Prérequis
 
-- [Listez toutes les dépendances nécessaires à l'installation et à l'exécution de votre projet. Par exemple, R version x.x.x, les packages spécifiques, etc.]
+Assurez-vous d'avoir les éléments suivants installés avant de lancer le tableau de bord 
 
 R version : 4.3.1
 
-Packages :
-    - shiny
-    - tidyverse
-    - leaflet
-
+```R
+install.packages(c("shiny", "tidyverse", "leaflet", "leaflet.extras", "shinyWidgets", "plotly", "shinythemes", "shinydashboard", "ggplot2", "DT"))
+```
 
 ## Installation
 
-1. [Clonez ce dépôt](url_du_depot) sur votre machine locale.
-2. [Installez les dépendances](#prérequis) en utilisant la commande suivante dans votre console R :
+1. [Clonez ce dépôt](https://github.com/benguir/dashboardProjectR.git) sur votre machine locale.
 
-```R
-install.packages(c("shiny", "tidyverse", "leaflet"))
+
