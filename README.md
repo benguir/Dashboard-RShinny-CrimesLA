@@ -1,4 +1,4 @@
-# DashboardRProject
+# Dashboard RShinny CrimesLA
 
 Un Dashboard interactif créé avec RShiny pour analyser les données sur la criminalité à Los Angeles à partir de 2020. 
 L'objectif à été de révéler des tendances, des motifs et fournir des aperçus des incidents criminels.
