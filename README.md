@@ -7,8 +7,7 @@ L'objectif à été de révéler des tendances, des motifs et fournir des aperç
 
 Le tableau de bord offre une visualisation interactive des données criminelles de Los Angeles, facilitant la compréhension des tendances et des statistiques clés. Les utilisateurs peuvent explorer et filtrer les données en fonction de différents critères, permettant une analyse approfondie.
 
-![image](https://github.com/benguir/dashboardProjectR/assets/97590761/af879943-57ac-4eb0-b0c5-4afc7e256d3d)
-
+![image](https://github.com/benguir/dashboardProjectR/assets/97590761/a9fb73ce-9ffd-4743-bf6a-f7740f88e78e)
 
 ## Fonctionnalités
 
@@ -22,7 +21,7 @@ Le tableau de bord offre une visualisation interactive des données criminelles 
 
 Assurez-vous d'avoir les éléments suivants installés avant de lancer le tableau de bord 
 
-R version : 4.3.1
+R version (3.6.0 ou supérieur)
 
 ```R
 install.packages(c("shiny", "tidyverse", "leaflet", "leaflet.extras", "shinyWidgets", "plotly", "shinythemes", "shinydashboard", "ggplot2", "DT"))
