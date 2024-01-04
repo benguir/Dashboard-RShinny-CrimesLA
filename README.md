@@ -23,6 +23,7 @@ Le tableau de bord offre une visualisation interactive des données criminelles 
 Assurez-vous d'avoir les éléments suivants installés avant de lancer le tableau de bord 
 
 R Version 3.6.0 ou supérieur ou [Download R 4.3.2](https://cran.r-project.org/bin/windows/base/)
+
 [Donwload R Studio](https://posit.co/download/rstudio-desktop/)
 
 ```R
@@ -33,6 +34,6 @@ install.packages(c("shiny", "tidyverse", "leaflet", "leaflet.extras", "shinyWidg
 
 1. [Clonez ce dépôt](https://github.com/benguir/dashboardProjectR.git) sur votre machine locale.
 
-2. Run App [app.R](https://github.com/benguir/dashboardProjectR/blob/main/app.R) 
+2. [app.R](https://github.com/benguir/dashboardProjectR/blob/main/app.R) -> Run App
 
 
