@@ -33,7 +33,7 @@ install.packages(c("shiny", "tidyverse", "leaflet", "leaflet.extras", "shinyWidg
 
 ## Installation
 
-1. [Clonez ce dépôt](https://github.com/benguir/dashboardProjectR.git) sur votre machine locale.
+1. [Clonez ce dépôt](https://github.com/benguir/Dashboard-RShinny-CrimesLA.git) sur votre machine locale.
 
 2. Ouvrir app.R avec R Studio puis Run App
 
