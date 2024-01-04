@@ -16,6 +16,7 @@ Le tableau de bord offre une visualisation interactive des données criminelles 
 - Carte interactive avec localisation des incidents criminels.
 - Graphique de ratio de crimes par district.
 - Filtres par sexe, âge et plage de dates.
+- Aperçu des données via le bouton ON / OFF
 
 ## Prérequis
 
